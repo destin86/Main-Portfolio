@@ -145,13 +145,6 @@ p {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-}
 
 
 hr {
@@ -173,14 +166,6 @@ a {
    display: none;
 }
 
-@media only screen and (max-width: 1000px;) {
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-}
 
 .ul {
     display: none;
@@ -194,5 +179,5 @@ nav {
 }
 
 .logo {
-    display: none;
+    flex-direction: row;
 }
